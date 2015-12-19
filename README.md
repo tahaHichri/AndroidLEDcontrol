@@ -14,7 +14,8 @@ android Studio, Arduino IDE, Bluetooth HC-05 module, arduino board.
 
 
 
-<img src="http://i.imgur.com/kQzC331.png" alt="screenshot" height="600"/>
+
+<img src="http://i.imgur.com/bTCelfW.jpg" alt="entire circuit" height="200"/>
 
 Requirements:
 works on android ICE_CREAM_SANDWICH_MR1 (SDK LEVEL 15) or newer versions.
