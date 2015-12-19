@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		android:orientation="vertical"
+
+		tools:context="com.hishri.fnarduino.MyActivity">
+<LinearLayout android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_height="wrap_content" android:orientation="horizontal">
+	<TextView
+			android:id="@+id/bluetooth_state"
+			android:layout_weight="0.5"
+			android:textSize="18sp"
+			android:gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"/>
+	<TextView
+			android:id="@+id/bluetooth_paired"
+			android:layout_weight="0.5"
+			android:textSize="18sp"
+			android:text="@string/paired_default_status"
+			android:gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"/>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_gravity="center_horizontal" android:gravity="center_horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+	<Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+
+			android:text="LIGHT UP"
+			android:id="@+id/buttonlightup"
+	        android:onClick="lightup"
+
+			/>
+	<Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TURN OFF"
+	        android:id="@+id/buttonShut"
+	        android:onClick="get available"
+			/>
+
+	<Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="DISCONNECT"
+	        android:id="@+id/buttondisconnect"
+
+			/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="2dp" android:background="@drawable/line_separate"/>
+	<RelativeLayout android:layout_marginTop="30dp" android:layout_width="match_parent" android:padding="10dp" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtled1" android:text="LED 1" android:textSize="18sp"/>
+		<SeekBar android:layout_width="match_parent" android:layout_toRightOf="@id/txtled1" android:layout_height="wrap_content" android:fadingEdge="horizontal" android:id="@+id/seekled1"   android:paddingLeft="20dp" android:paddingStart="20dp" android:paddingRight="10dp" android:paddingEnd="10dp" android:max="25"  />
+	</RelativeLayout>
+	<RelativeLayout android:layout_marginTop="20dp" android:layout_width="match_parent" android:padding="10dp" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtled2" android:text="LED 2" android:textSize="18sp"/>
+		<SeekBar android:layout_width="match_parent" android:layout_toRightOf="@id/txtled2" android:layout_height="wrap_content" android:fadingEdge="horizontal" android:id="@+id/seekled2"   android:max="25"   android:paddingLeft="20dp" android:paddingStart="20dp" android:paddingRight="10dp" android:paddingEnd="10dp" />
+	</RelativeLayout>
+	<RelativeLayout android:layout_marginTop="20dp" android:layout_width="match_parent" android:padding="10dp" android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LED 3" android:id="@+id/txtled3" android:textSize="18sp"/>
+		<SeekBar android:layout_width="match_parent" android:layout_toRightOf="@id/txtled3" android:layout_height="wrap_content" android:fadingEdge="horizontal" android:id="@+id/seekled3"   android:max="25"   android:paddingLeft="20dp" android:paddingStart="20dp" android:paddingRight="10dp" android:paddingEnd="10dp" />
+	</RelativeLayout>
+	<LinearLayout android:layout_marginTop="20dp" android:layout_width="match_parent" android:layout_height="2dp" android:background="@drawable/line_separate"/>
+
+	<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="15sp" android:layout_gravity="center" android:gravity="center_horizontal" android:text="AVAILABLE DEVICES"/>
+	<ListView android:layout_width="match_parent"  android:id="@+id/mylist" android:layout_height="wrap_content"
+
+			>
+	</ListView>
+
+</LinearLayout>

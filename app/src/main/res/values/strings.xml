@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">LEDcom</string>
+	<string name="paired_default_status">NONE</string>
+</resources>
