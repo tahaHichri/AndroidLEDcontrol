@@ -15,6 +15,9 @@ android Studio, Arduino IDE, Bluetooth HC-05 module, arduino board.
 
 
 <img src="http://i.imgur.com/kQzC331.png" alt="screenshot" height="600"/>
+
+
+<h3>Actual equipments used for this project</h3>
 <img src="http://i.imgur.com/bTCelfW.jpg" alt="entire circuit" height="200"/>
 
 
