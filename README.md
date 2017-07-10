@@ -138,6 +138,10 @@ void setLEDthree(int brighteness)
 
 
 
+# CONTRIBUTE TO THIS PROJECT
+<i>All contribution to this project are welcome! Get involved by forking the source now!</i>
+
+
 
 
 
