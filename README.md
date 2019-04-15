@@ -26,7 +26,7 @@ works on android ICE_CREAM_SANDWICH_MR1 (SDK LEVEL 15) or newer versions.
 
 <h3>Arduino code</h3>
 
-``` arduino
+``` c
 #include <SoftwareSerial.h>
 #include <stdio.h>
 
