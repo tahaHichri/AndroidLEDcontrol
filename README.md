@@ -137,6 +137,14 @@ void setLEDthree(int brighteness)
 
 ```
 
+
+## Donate
+
+If you found this project helpful, consider buying me a :coffee: 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/tahaHichri)
+
+
 ## LICENSE
 Before using this software, please make sure that your project complies with the MIT license below.
 
